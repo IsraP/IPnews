@@ -1,0 +1,2 @@
+# IsraelsNews
+A web project.

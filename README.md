@@ -1,2 +1,4 @@
 # IsraelsNews
-A web project.
+A webpage developing project.
+
+# Dont mind me just testing some things ;)

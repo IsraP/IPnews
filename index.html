@@ -93,11 +93,78 @@
         .twitter-widget-1 {
         width:100%;
         }
+        .dropcountry{
+          display:none;
+        }
 
-        @media screen and (max-width: 768){
-          h1{
-            color: red;
+        .paisicone{
+          display: none;
+        }
+        .teste{
+          display: none;
+        }
+        .btn-quarter{
+          background-color: #293668 !important;
+        }
+
+        @media screen and (max-width:850px){
+          .eximg{
+            display: none;
           }
+        }
+
+
+        @media screen and (max-width:850px) and (min-width:416px){
+          .searchbardiv{
+            display: none;
+          }
+          .musicaart{
+            display: none;
+          }
+          .videocol{
+            display: none;
+          }
+          .twitter-widget-2 {
+        display: none;
+        }
+        }
+
+
+        @media screen and (max-width: 415px){
+          .register, .country{
+            display: none;
+          }
+          
+          .dropcountry{
+            display: contents ;
+          }
+          .paistexto{
+            display: none;
+          }
+          .paisicone{
+          display: contents;
+        }
+        .header2{
+          display: none;
+        }
+        .masub{
+          display: none;
+        }
+        .teste{
+          display: block;
+        }
+        .twitter-widget-2 {
+        display: none;
+        }
+        .artists{
+          display: none;
+        }
+        .musicaart{
+          display: none;
+        }
+        .videocol{
+          display: none;
+        }
         }
 
     </style>
@@ -115,7 +182,7 @@
     <body class="">
         <div class="bg-quarter">
             <div class="bg-terciary">
-                <!--Header no2-->
+                <!--Header no1-->
             <header class='header container'>
                 <nav class="navbar navbar-light d-flex flex-row bg-terciary">
                     <div class='col-9'>
@@ -125,8 +192,8 @@
                             alt="alt">
                         </a>
                     </div>
-                    <div class='col-3 sub'>
-                        <div class='d-flex flex-row col-12 justify-content-end align-self-start'>
+                    <div class='col-3 masub sub'>
+                        <div class=' d-flex flex-row mt-3 mt-sm-0 col-12 justify-content-end align-self-start'>
                             <div class='pl-2'>
                                 <a href="" class='text-light'>Subscribe</a>
                             </div>
@@ -134,44 +201,166 @@
                                 |
                             </div>
                             <div class='pl-2 '>
-                                <a href="" class='text-light'>Register</a>
+                                <a href="" class='text-light register'>Register</a>
                             </div>
-                            <div class='pl-2 text-logo'>
+                            <div class='pl-2 text-logo register'>
                                 |
                             </div>
                             <div class='pl-2 pr-2'>
                                 <a href="" class='text-light'>Login</a>
                             </div>
+                            <div class="pl-2 pr-2">
+                              
+                            </div>
                         </div>
-                        <div class='d-flex flex-row col-12 justify-content-end'><br></div>
-                        <div class='d-flex flex-row col-12 justify-content-end'><br></div>
-                        <div class='d-flex flex-row col-12 justify-content-end'>
-                            <div class='pr-2'>
+                        <div class="row d-flex flex-row extrapadding">
+                          <div class='col-6 dropcountry'>
+                            <div class="dropdown">
+                              <a class="btn text-light  bg-terciary dropdown-toggle" href="#" role="button" id="country" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="paistexto">Country</span><span class="paisicone"><i class="fa fa-globe"></i></span>
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="country">
+                                <a class="dropdown-item" href="#"><a href=""><img class="pl-5 ml-4" src='https://imgur.com/Y6wUSUE.png'></a></a>
+                                <a class="dropdown-item" href="#"><a href=""><img class="pl-5 ml-4" src='https://imgur.com/Qwh3RWG.png'></a></a>
+                                <a class="dropdown-item" href="#"><a href=""><img class="pl-5 ml-4" src='https://imgur.com/nGVgGIE.png'></a></a>
+                                <a class="dropdown-item" href="#"><a href=""><img class="pl-5 ml-4" src='https://imgur.com/zrtlalK.png'></a></a>
+                                <a class="dropdown-item" href="#"><a href=""><img class="pl-5 ml-4" src='https://imgur.com/jiDgERM.png'></a></a>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          
+                        </div>
+                        
+                        <div class='d-flex flex-row mt-sm-5 mt-2 col-12 justify-content-end'>
+                            <div class='pr-sm-2 mt-sm-2 country '>
                                 <a href="" class='text-light'>Country: </a>
                             </div>
-                            <div class='pr-3'>
+                            <div class='pr-sm-3 mt-sm-2 country'>
                                 <a href=""><img src='https://imgur.com/Y6wUSUE.png'></a>
                             </div>
-                            <div class='pr-3 '>
+                            <div class='pr-sm-3 mt-sm-2 country'>
                                 <a href=""><img src='https://imgur.com/Qwh3RWG.png'></a>
                             </div>
-                            <div class='pr-3 '>
+                            <div class='pr-sm-3 mt-sm-2 country'>
                                 <a href=""><img src='https://imgur.com/nGVgGIE.png'></a>
                             </div>
-                            <div class='pr-3 '>
+                            <div class='pr-sm-3 mt-sm-2 country'>
                                 <a href=""><img src='https://imgur.com/zrtlalK.png'></a>
                             </div>
-                            <div class=' '>
+                            <div class=' mt-sm-2 country'>
                                 <a href=""><img src='https://imgur.com/jiDgERM.png'></a>
                             </div>
                         </div>
+                        <div class="row col-12">
+                          
+                        </div>
+                        
                     </div>
-                    
+                    <div class="col-3 teste">
+                      <ul class="nav border border-danger border-left-0 border-right-0" id="menu"></ul>
+          <div class="navbar navbar-inverse navbar border-bottom border-secondary mb-2 fixed-top cel bg-terciary">
+
+            <div class="container-fluid ">
+
+              <!-- Menu hamburger Inicio -->
+              <div class="navbar-header ">
+                <button type="button" class="mt-5 navbar-toggle" data-toggle="collapse"
+                  data-target="#exemplo-navbar-collapse" aria-expanded="false"><i class="fas fa-bars"></i>
+
+                  <span class="sr-only">Navegacao</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+
+                </button>
+
+                <!-- Título Direita do menu-->
+                <a class="navbar-brand" href="#" target="_blank"></a>
+                <img src="https://i.imgur.com/2rd3Pka.png" width="100" height="100" 
+                class="ml-5 logo">
+
+              </div>
+              <!-- Menu hamburger Fim -->
+
+              <div class="collapse navbar-collapse" id="exemplo-navbar-collapse">
+
+                <!-- Links Inicio -->
+                <ul class="nav navbar-nav navbar-left">
+
+                  <!-- Menu dropdown Inicio -->
+                  <!-- Menu dropdown Fim -->
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#"><i class="fas fa-home"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" href="#"><i class="fas pr-2 fa-user-circle"></i>Artists</a>
+                  </li>
+                  <li class="nav-item nemu">
+                    <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown"><i
+                        class="fas pr-2 fa-newspaper"></i>News<b class="caret"></b></a>
+                    <ul class="dropdown-menu bg-dark">
+                      <a class="dropdown-item  text-light" href="#">Sports</a>
+                      <a class="dropdown-item  text-light" href="#">Science</a>
+                      <a class="dropdown-item  text-light" href="#">Varieties</a>
+                    </ul>
+                  </li>
+                  <li class=" nav-item nemu">
+                    <a href="#" class="dropdown-toggle nav-link text-white" data-toggle="dropdown"><i
+                        class="fas pr-2 fa-tags"></i>Labels<b class="caret"></b></a>
+                    <ul class="dropdown-menu bg-dark">
+                      <a class="dropdown-item  text-light" href="#">U.S. Labels</a>
+                      <a class="dropdown-item  text-light" href="#">World Labels</a>
+                      <a class="dropdown-item  text-light" href="#">Publishing</a>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown nav-item nemu mune">
+                    <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown"><i
+                        class="fas pr-2 fa-building"></i>Our Company<b class="caret"></b></a>
+                    <ul class="dropdown-menu bg-dark">
+                      <a class="dropdown-item  text-light" href="#">Our Crew</a>
+                      <a class="dropdown-item  text-light" href="#">Our Dream</a>
+                      <a class="dropdown-item  text-light" href="#">Contact</a>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#"><i class="fas pr-2 fa-store"></i>Online Store</a>
+                  </li>
+                  <li class=" nav-item nemu">
+                    <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown"><i class=" pr-2 fas fa-newspaper"></i>Join us!<b class="caret"></b></a>
+                    <ul class="dropdown-menu bg-dark">
+                      <a class="dropdown-item  text-light" href="#"><i
+                        class="fas pr-2 fa-angle-double-down"></i>Subscribe</a>
+                    <a class="dropdown-item  text-light" href="#"><i class="fas pr-2 fa-download"></i>Register</a>
+                    <a class="dropdown-item  text-light" href="#"><i class="fas pr-2 fa-sign-in-alt"></i>Login</a>
+                    </ul>
+                  </li>
+                  <li class=" nav-item nemu mune">
+                    <a href="#" class="dropdown-toggle text-white" data-toggle="dropdown"><i class="fas fa-globe"></i><b class="caret"></b></a>
+                    <ul class="dropdown-menu bg-dark">
+                      <a class="dropdown-item  text-light" href="#"><img src='https://i.imgur.com/Qwh3RWG.png'></a>
+                  <a class="dropdown-item  text-light" href="#"><img src='https://i.imgur.com/Y6wUSUE.png'></a>
+                  <a class="dropdown-item  text-light" href="#"><img src='https://imgur.com/nGVgGIE.png'></a>
+                  <a class="dropdown-item  text-light" href="#"><img src='https://imgur.com/zrtlalK.png'></a>
+                  <a class="dropdown-item  text-light" href="#"><img src='https://imgur.com/jiDgERM.png'></a>
+                    </ul>
+                  </li>
+
+                </ul>
+                <!-- Links Fim -->
+
+                
+                </div>
+              </div>
+                    </div>
                 </nav>
+                </header>
             </div>
-            </header>
+            
                 <!--Header no2-->
-                <div class='bg-terciary border border-right-0 border-left-0 border-secondary'>
+                <div class='bg-terciary header2 border border-right-0 border-left-0 border-secondary'>
             <header class="container">
                 <div class="row bg-terciary">
                     <div class="col-12 row flex-row text-light">
@@ -220,8 +409,8 @@
                         <div class="pl-2 align-self-center">
                             <a class="text-light" href="">Online Store</a> 
                         </div>
-                        <div class="pr-2 py-2 ml-auto align-self-center">
-                            <form class="form-inline my-2 my-lg-0">
+                        <div class="searchbardiv pr-2 py-2 ml-auto align-self-center">
+                            <form class=" form-inline my-2 my-lg-0">
                                 <input class="form-control mr-sm-2" 
                                 type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn btn-outline-success my-2 my-sm-0" 
@@ -279,19 +468,19 @@
                       </div>
                 <!--Exclusive News-->
                     <div class='row'>
-                        <div class="col-8 d-flex">
+                        <div class="col col-sm-8 col-md-8 col-lg-8 col-xg-8 d-flex">
                           <div class="row">
-                            <div class="col-10 d-flex align-self-center">
+                            <div class="eximg col-md-10 d-flex align-self-center">
                                 <img src="https://img.bleacherreport.net/img/images/photos/003/852/948/hi-res-02fc3526403707462377476f0f1ceccd_crop_north.jpg?1581915304&w=3072&h=2048"
-                                class="img-responsive mt-5 align-self-start mb-5 border rounded border-secondary kawhi" width="100%" height="auto">
+                                class="eximg img-responsive mt-5 align-self-start mb-5 border rounded border-secondary kawhi" width="100%" height="auto">
                             </div>
-                            <div class="col-10 mt-2 align-self-center">
+                            <div class=" eximg col-10 mt-2 align-self-center">
                               <img src="https://miro.medium.com/max/4240/0*Z1LrSvDH-rvrEgRF.jpg"
-                              class="img-responsive mt-5 align-self-start mb-5 border rounded border-secondary kawhi" width="100%" height="auto">
+                              class="eximg img-responsive mt-5 align-self-start mb-5 border rounded border-secondary kawhi" width="100%" height="auto">
                             </div>
                           </div>
                           <div class="row">
-                            <div class="col-10">
+                            <div class="col-sm-12 col-md-10 col-lg-10 col-xs-10">
                                 <p class='fontexclusive text-light pt-4'><i>Updated 15/04/2020<br></i></p>
                                 <h5 class="text-light">NBA Throwback: Kawhi wins MSG's first Kobe Bryant Award!</h5>
                                 <p class="text-light text-justify">Kawhi Leonard was named the recipient of the NBA's first-ever Kobe Bryant All-Star MVP Award on Sunday. 
@@ -300,7 +489,7 @@
                                 </p>
                                 <a href="">Continue reading -></a>
                             </div>
-                            <div class="col-10 mt-2">
+                            <div class="col-sm-12 col-md-10 col-lg-10 col-xs-10 mt-2">
                                 <p class='fontexclusive text-light pt-4'><i>Updated 15/04/2020<br></i></p>
                                 <h5 class="text-light">Tokyo Olympics 2020 to be postponed.</h5>
                                 <p class="text-light text-justify">The Tokyo Olympics are to be postponed until 2021 after talks between Japan’s prime minister, Shinzo Abe, and the International Olympic Committee president, Thomas Bach, led to confirmation of a decision made inevitable by the coronavirus pandemic.
@@ -318,7 +507,7 @@
                         
                         
                 <!--Promoted Artists-->
-                        <div class="col-4">
+                        <div class="col-4 artists">
                             <div class='row'>
                                 <div class="col-12  rounded backgroundpromoted my-3">
                                     <h4 class="py-2 px-2 "><span class=" text-light">Promoted</span>
@@ -328,7 +517,7 @@
 
                     <!--Carrousel Promoted Artists-->
 
-                            <div class="row">
+                            <div class="row artists">
                                 <div id="promoted" class="carousel slide">
                                     <ol class="carousel-indicators">
                                       <li data-target="#promoted" data-slide-to="0" class="active bg-danger"></li>
@@ -491,25 +680,25 @@
                 <div class="row pt-5">
 
                 <!--News section-->
-                  <article class='col-8 '>
+                  <article class='col-md-12 col-lg-8 col-xl-8 col-sm-12 col-12'>
                     <div class="row row-cols-1 row-cols-md-1 pt-5">
                       <div class='news-header  col-12 pt-4'>
-                          <nav class="navbar text-light  backgroundnews py-2 navbar-light bg-danger border-right rounded">
+                          <nav class="navbar text-light backgroundnews py-2 navbar-light bg-danger border-right rounded">
                               <h1>News</h1>
                           </nav>
                       </div>
                     </div>
-                  <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-2 pt-5">
-                      <div class="col-4 mt-4 py-3">
+                  <div class="row row-cols-sm-2 row-cols-md-2 row-cols-xl-2 pt-5">
+                      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6 mt-4 py-3">
                           <p class="text-light"><small>Saturday 18 April 2020</small></p>
                           <h5 class="text-light">1 Starter Every NBA Team Should Trade This Offseason</h5>
                           <img src="https://imgur.com/bmZBpfz.png"
                           class="img-fluid">
                           <p class="text-light pt-3">Though the 2020 NBA free-agent class is widely considered less interesting than its previous two counterparts, the offseason still has a chance to be full of transactions and drama. With no clear title front-runner and every team boasting a weakness or redundancy of some sort, there are plenty of potential trades to be made.
-                            <a href="https://gg.gg/i2g0q"><br>Read more -></a>
+                            <a href="https://gg.gg/i2g0q" target="_blank"><br>Read more -></a>
                           </p>
                       </div>
-                      <div class="col-4  py-3">
+                      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6  py-3">
                           <p class="text-light"><small>Sunday 19 April 2020</small></p>
                           <h5 class="text-light">A weird stellar explosion may have caused the brightest supernova yet seen</h5>
                           <img src="https://imgur.com/68VlHT1.png"
@@ -517,26 +706,26 @@
                           <p class="text-light pt-3">The brightest supernova ever seen may be the first known example of a rare type of stellar explosion.
 
                             The supernova, spotted in 2016 in a galaxy about 4.6 billion light-years away, radiated about 5 sexdecillion (5 followed by 51 zeros) ergs of energy. That’s about twice the amount of radiation emitted by the previous record-holder, and hundreds of times more energetic than normal supernovas. At its brightest, this supernova was as bright as all the stars in the Milky Way put together.
-                            <a href="https://gg.gg/i2g1k">Read more -></a>
+                            <a href="https://gg.gg/i2g1k" target="_blank"><br>Read more -></a>
                           </p>
                       </div>
-                      <div class="col-4  py-3">
+                      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6  py-3">
                           <p class="text-light"><small>Friday 17 April 2020</small></p>
                           <h5 class="text-light">‘Kami no Tou: Tower of God’ Anime is Greenlit. Here are the Details.</h5>
                           <img src="https://imgur.com/tqDEyHK.jpg"
                           class="img-fluid">
                           <p class="text-light pt-3">Written and drawn by Lee Jong-hui under the pseudonym Slave In Utero, ‘Tower of God’ is one remarkable web manga that has a fairly simple premise, but what makes it special is its seamless blend of 2D characters and backgrounds that bring its fantastical world to life.
-                            <a href="https://www.thecinemaholic.com/kami-no-tou-tower-of-god/">Read more -></a>
+                            <a href="https://www.thecinemaholic.com/kami-no-tou-tower-of-god/" target="_blank"><br>Read more -></a>
                           </p>
                       </div>
-                      <div class="col-4  py-3">
+                      <div class="col-sm-6 col-xs-12 col-md-6 col-lg-6 col-xl-6  py-3">
                           <p class="text-light mt-2"><small>Wednesday 15 April 2020</small></p>
                           <h5 class="text-light">Where are all the unused planes right now?</h5>
                           <img src="https://imgur.com/30UAeyc.jpg"
                           class="img-fluid">
                           <p class="text-light pt-3">
                             Between a third and half of the global population are in some form of lockdown. City centres, malls, high streets and tourist attractions are all quiet – and so too is the sky above our planet. The planes that connect our world, unite families and open our eyes to new horizons are, almost entirely, grounded.
-                            <a href="https://gg.gg/i2gcb">Read mode -></a>
+                            <a href="https://gg.gg/i2gcb" target="_blank"><br>Read more -></a>
                           </p>
                       </div>
                       
@@ -544,7 +733,7 @@
                   </article>
 
                 <!--Music section-->
-                  <article class="col-4">
+                  <article class="col-4 musicaart">
                     <div class="row row-cols-1 row-cols-md-1 pt-5">
                       <div class="col-12 pt-4">
                         <nav class='navbar text-light py-2 navbar-light backgroundmusic rounded'>
@@ -554,7 +743,7 @@
                       </div>
                     </div>
                     <!--Music carousel-->
-                    <div class="row pt-3">
+                    <div class="row pt-3 ">
                       <div id="music" class="carousel slide" >
                         <ol class="carousel-indicators spotify">
                           <li data-target="#music" data-slide-to="0" class="active bg-success"></li>
@@ -763,7 +952,7 @@
 
                 <!--Label section-->
                 <div class="row pt-3 pb-5">
-                  <div class="col-8">
+                  <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12 col-xs-12">
                     <nav class='navbar py-2 navbar-light backgroundnews text-light rounded '>
                       <h1 class="align-self-center">Labels</h1>
                     </nav>
@@ -777,7 +966,7 @@
                         <div class="carousel-item active">
                           <div class="row pt-3 row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-xs-2">
 
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">U.S. Labels</div>
                                 <img class="card-img-top" src="https://i.imgur.com/4PDBSPn.png" alt="Imagem de capa do card">
@@ -789,7 +978,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">U.S. Labels</div>
                                 <img class="card-img-top" src="https://i.imgur.com/tm2thcX.png" alt="Imagem de capa do card">
@@ -801,7 +990,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">U.S. Labels</div>
                                 <img class="card-img-top" src="https://i.imgur.com/622ggUT.png" alt="Imagem de capa do card">
@@ -813,7 +1002,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                                 <div class="card-header">U.S. Labels</div>
                                 <img class="card-img-top" src="https://i.imgur.com/hnyYpNF.png" alt="Imagem de capa do card">
@@ -831,7 +1020,7 @@
                         <div class="carousel-item">
                           <div class="row pt-3 row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-xs-2">
 
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
                                 <div class="card-header">World labels</div>
                                 <img class="card-img-top" src="https://conteudo.imguol.com.br/c/home/05/2020/04/19/jair-bolsonaro-1587285254694_300x168.jpg" alt="Imagem de capa do card">
@@ -843,7 +1032,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
                                 <div class="card-header">World labels</div>
                                 <img class="card-img-top" src="https://conteudo.imguol.com.br/c/home/e0/2020/04/01/frame-do-video-com-o-pronunciamento-de-bolsonaro-do-dia-310320-1585739481817_300x168.jpg" alt="Imagem de capa do card">
@@ -855,7 +1044,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
                                 <div class="card-header">World labels</div>
                                 <img class="card-img-top" src="https://conteudo.imguol.com.br/c/home/78/2020/04/19/marilia-bittencourt-e-mae-de-tres-filhos-e-faz-residencia-em-enfermagem-obstetrica-em-londrina-pr-1587286390045_300x168.jpg" alt="Imagem de capa do card">
@@ -867,7 +1056,7 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
                                 <div class="card-header">World labels</div>
                                 <img class="card-img-top" src="https://maquinadoesporte.uol.com.br/media/pinheiros_nbb_pandemia.jpg" alt="Imagem de capa do card">
@@ -885,11 +1074,11 @@
                         <div class="carousel-item">
                           <div class="row pt-3 row-cols-lg-4 row-cols-md-4 row-cols-sm-2 row-cols-xs-2">
 
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card  bg-light mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Publishing</div>                                
                                 <div class="card-body">
-                                <div class="spinner-border p-5" role="status">
+                                <div class="spinner-border p-md-3 p-lg-4 p-xg-5 p-sm-2 p-1" role="status">
                                   <span class="sr-only">Loading...</span>
                                   
                                 </div>
@@ -898,11 +1087,11 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card  bg-light mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Publishing</div>                                
                                 <div class="card-body">
-                                <div class="spinner-border p-5" role="status">
+                                <div class="spinner-border p-md-3 p-lg-4 p-xg-5 p-sm-2 p-1" role="status">
                                   <span class="sr-only">Loading...</span>
                                   
                                 </div>
@@ -911,11 +1100,11 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
+                            <div class="col-6 col-sm-3 col-md-3">
                               <div class="card  bg-light mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Publishing</div>                                
                                 <div class="card-body">
-                                <div class="spinner-border p-5" role="status">
+                                <div class="spinner-border p-md-3 p-lg-4 p-xg-5 p-sm-2 p-1" role="status">
                                   <span class="sr-only">Loading...</span>
                                   
                                 </div>
@@ -924,11 +1113,11 @@
                               </div>
                             </div>  
                                                       
-                            <div class="col">
-                              <div class="card bg-light mb-3" style="max-width: 18rem;">
+                            <div class="col-6 col-sm-3 col-md-3">
+                              <div class="card  bg-light mb-3" style="max-width: 18rem;">
                                 <div class="card-header">Publishing</div>                                
                                 <div class="card-body">
-                                <div class="spinner-border p-5" role="status">
+                                <div class="spinner-border p-md-3 p-lg-4 p-xg-5 p-sm-2 p-1" role="status">
                                   <span class="sr-only">Loading...</span>
                                   
                                 </div>
@@ -950,7 +1139,10 @@
                   
                   
                   </div>
-                  <div class="col-4">
+
+
+              <!--Video section-->
+                  <div class="col-4 videocol">
                     <div class="row">
                       <div class='col-12'>
                         <nav class='navbar text-light py-2 navbar-light backgroundvideo rounded'>
@@ -994,7 +1186,7 @@
               <footer class="border-top  border-secondary bg-terciary">
                 <div class="container mt-2 bg-terciary">
                   <div class="row d-flex ">
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center">
                       <div class="row align-self-start">
                         <div class="col-12 mt-3 align-self-start">
                           <h3 class="text-light pb-2">About us.</h3>
@@ -1014,25 +1206,25 @@
                       
                       
                     </div>
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center">
                       <div class='row align-self-start'>
                         <div class="col-12 d-flex justify-content-center align-self-start">
-                          <h3 class="text-light">Quick Links</h3>
+                          <h3 class="text-light mt-3">Quick Links</h3>
                         </div>
-                        <div class="col-4 mt-3">
-                          <a href="">Home</a>
-                          <a href="">Artists</a>
-                          <a href="">News</a>
-                          <a href="">Labels</a>
-                          <a href="">Our Company</a>
-                          <a href="">Shop</a>
+                        <div class="col-4 col-sm-4 mt-3">
+                          <a href="">Home        <br></a>
+                          <a href="">Artists     <br></a>
+                          <a href="">News        <br></a>
+                          <a href="">Labels      <br></a>
+                          <a href="">Our Company <br></a>
+                          <a href="">Shop        <br></a>
                         </div>
-                        <div class="col-4 mt-3">
+                        <div class="col-4 col-sm-4 mt-3">
                           <a href="">Our Crew</a>
                           <a href="">Our Dream</a>
                           <a href="">Contact</a>
                         </div>
-                        <div class="col-4 mt-3">
+                        <div class="col-4 col-sm-4 lcol mt-3">
                           <a href="">Jobs</a>
                           <a href="">Newsletter</a>
                           <a href="">Terms of Use</a>
@@ -1044,13 +1236,13 @@
                       </div>
                       </div>
                     </div>
-                    <div class="col-4  justify-content-center mb-2">
+                    <div class="col-12 col-md-12 col-lg-4 col-xl-4  justify-content-center mb-2">
                       <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 twitter-widget-2">
                           <blockquote class="twitter-tweet twitter-widget-1"><p lang="en" dir="ltr">UPDATE: Hours after the Supreme Court order was posted, a notice went up saying that the Board of Equalization would host a special meeting this upcoming Monday at 3 p.m. <a href="https://t.co/IQK1SzzDIq">https://t.co/IQK1SzzDIq</a></p>&mdash; Kayla Branch (@kayla_branch) <a href="https://twitter.com/kayla_branch/status/1250937896221257730?ref_src=twsrc%5Etfw">April 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         <h3 class="text-light">Follow us on: </h3>
                         </div>
-                        <div class="col-12 text-light ">
+                        <div class="col-12 mt-3 text-light ">
                           <a href="https://github.com/IsraP/IPnews" class="text-white"><i class="fa fa-github  px-2 fa-2x"></i></a>
                           <a href="" class="text-white"><i class="fa fa-instagram px-2  fa-2x"></i></a>
                           <a href="" class="text-white"><i class="fa fa-whatsapp  px-2 fa-2x"></i></a>

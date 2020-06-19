@@ -1,0 +1,163 @@
+.bg-terciary{
+    background-color: #202a4f;
+}
+img.logo {
+border-radius: 50%;
+}
+div.sub {
+    height: 100px;
+}
+.text-logo{
+    color: #293668;
+}
+.text-sub{
+    color: #8c8c8c;
+}
+.carrotitulo{
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.fontexclusive{
+    font-size: smaller;
+}
+.text-black{
+    color :black !important;
+}
+img.kawhi{
+    max-width: 110%;
+}
+.bg-quarter{
+   background-color: #12182E; 
+}
+.nopadding {
+padding: 0 !important;
+margin: 0 !important;
+}
+.lowpadding {
+padding: 5px !important;
+margin: 0 !important;
+}
+.backgroundnews{
+    background-image: url("https://imgur.com/HPL6L7f.png");
+}
+.backgroundpromoted{
+    background-image: url("https://imgur.com/j00CWgL.png");
+}
+.backgroundmusic{
+    background-image: url("https://imgur.com/gc1mh4x.png");
+}
+.backgroundvideo{
+  background-image: url("https://imgur.com/ZNy1zX7.png");
+}
+.bg-basket{
+    background-color: #CF5300 !important; 
+}
+.carousel-indicators li {
+width: 10px !important;
+height: 10px !important;
+border-radius: 100% !important;
+}
+ol.spotify li{
+  position: relative;
+  bottom: -55px;
+}
+ol.labelcar li{
+  position: relative;
+  bottom: -33px;
+}
+ol.videocar li{
+  position: relative;
+  bottom: -50px;
+}
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.twitter-widget-1 {
+width:100%;
+}
+.dropcountry{
+  display:none;
+}
+
+.paisicone{
+  display: none;
+}
+.teste{
+  display: none;
+}
+.btn-quarter{
+  background-color: #293668 !important;
+}
+
+@media screen and (max-width:850px){
+  .eximg{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:850px) and (min-width:416px){
+  .searchbardiv{
+    display: none;
+  }
+  .musicaart{
+    display: none;
+  }
+  .videocol{
+    display: none;
+  }
+  .twitter-widget-2 {
+display: none;
+}
+}
+
+
+@media screen and (max-width: 415px){
+  .register, .country{
+    display: none;
+  }
+  
+  .dropcountry{
+    display: contents ;
+  }
+  .paistexto{
+    display: none;
+  }
+  .paisicone{
+  display: contents;
+}
+.header2{
+  display: none;
+}
+.masub{
+  display: none;
+}
+.teste{
+  display: block;
+}
+.twitter-widget-2 {
+display: none;
+}
+.artists{
+  display: none;
+}
+.musicaart{
+  display: none;
+}
+.videocol{
+  display: none;
+}
+}
